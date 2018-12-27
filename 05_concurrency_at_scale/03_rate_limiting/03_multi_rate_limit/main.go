@@ -2,12 +2,13 @@ package main
 
 import (
 	"context"
-	"golang.org/x/time/rate"
 	"log"
 	"os"
 	"sort"
 	"sync"
 	"time"
+
+	"golang.org/x/time/rate"
 )
 
 func main() {

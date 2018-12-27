@@ -2,10 +2,11 @@ package main
 
 import (
 	"context"
-	"golang.org/x/time/rate"
 	"log"
 	"os"
 	"sync"
+
+	"golang.org/x/time/rate"
 )
 
 func main() {
